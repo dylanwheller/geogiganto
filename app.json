@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "GeoGiganto",
+    "slug": "geogiganto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash-dino.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#091a0e"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.smartypants.geogiganto"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "backgroundColor": "#091a0e"
+      },
+      "package": "com.smartypants.geogiganto",
+      "googleServicesFile": "./google-services.json",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "@react-native-google-signin/google-signin",
+        { "iosUrlScheme": "com.googleusercontent.apps.YOUR_IOS_CLIENT_ID" }
+      ],
+      "expo-audio"
+    ],
+    "scheme": "geogiganto",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "GOOGLE_WEB_CLIENT_ID": "484276241658-c4guf8kn8d4ed852i62ug1mfi8bt1dj7.apps.googleusercontent.com",
+      "GOOGLE_IOS_CLIENT_ID": "484276241658-c4guf8kn8d4ed852i62ug1mfi8bt1dj7.apps.googleusercontent.com",
+      "GOOGLE_ANDROID_CLIENT_ID": "484276241658-c4guf8kn8d4ed852i62ug1mfi8bt1dj7.apps.googleusercontent.com",
+      "REVENUECAT_ANDROID_KEY": "goog_NWQYbmbkHUUbGbAxmEUWDJToMIH",
+      "REVENUECAT_IOS_KEY": "REPLACE_WITH_GEOGIGANTO_REVENUECAT_IOS_KEY",
+      "router": {},
+      "eas": {
+        "projectId": "c45ac4e7-505e-4524-ab73-b00cc6bcb555"
+      }
+    }
+  }
+}
