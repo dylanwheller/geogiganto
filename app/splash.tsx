@@ -45,7 +45,7 @@ export default function SplashScreen() {
   }, [minTimeElapsed, authLoading, isAuthenticated, isLoggedIn, user.onboardingComplete, router]);
 
   return (
-    <LinearGradient colors={['#030d1a', '#0a1628', '#030d1a']} style={{ flex: 1 }}>
+    <LinearGradient colors={['#091a0e', '#0d2614', '#091a0e']} style={{ flex: 1 }}>
       <View className="flex-1 items-center justify-center px-6">
         <View className="items-center justify-center rounded-3xl bg-white/10 p-10 shadow-lg shadow-black/30">
           <Image
