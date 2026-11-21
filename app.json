@@ -6,7 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "dark",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.smartypants.geogiganto"
@@ -19,7 +21,6 @@
       },
       "package": "com.smartypants.geogiganto",
       "googleServicesFile": "./google-services.json",
-      "edgeToEdgeEnabled": true,
       "permissions": [
         "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
@@ -34,7 +35,9 @@
       "expo-font",
       [
         "@react-native-google-signin/google-signin",
-        { "iosUrlScheme": "com.googleusercontent.apps.YOUR_IOS_CLIENT_ID" }
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.YOUR_IOS_CLIENT_ID"
+        }
       ],
       [
         "expo-splash-screen",
@@ -54,7 +57,9 @@
             "enableShrinkResourcesInReleaseBuilds": true
           }
         }
-      ]
+      ],
+      "expo-status-bar",
+      "expo-asset"
     ],
     "scheme": "geogiganto",
     "experiments": {
